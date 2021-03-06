@@ -23,11 +23,16 @@ h3,
 h4,
 h5 {
     font-family: 'Prata', serif;
+    font-weight: normal;
 }
 
 h1 {
     font-size: 15rem;
-    font-weight: normal;
+    margin: 0;
+}
+
+h1 + p {
+    font-size: 1.8rem;
 }
 
 h2 {
@@ -58,6 +63,7 @@ a {
 
 p {
     line-height: 145%;
+    font-size: 1.6rem;
 }
 
 .works h3 {
@@ -91,13 +97,17 @@ p {
 .navigation li {
     display: inline-block;
     margin: 0 1.5rem;
-    color: #20c4bb;
+    color: black;
 }
 
 .left-col,
 .right-col {
     color: #fff;
     text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-col {
@@ -108,9 +118,41 @@ p {
     background-color: coral;
 }
 
+.top-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .scroll {
     color: #2864b1;
     text-align: center;
+}
+
+.works {
+    color: #16736e;
+}
+
+.works-img {
+    position: relative;
+    width: 100%;
+}
+
+.works h4 {
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+}
+
+.works h4.right-aligned {
+    right: 0;
+}
+
+.extra-gutters {
+    padding: 0 6rem;
+}
+
+.right-aligned {
+    text-align: right;
 }
 
 img {
