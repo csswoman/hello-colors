@@ -61,6 +61,10 @@ a {
 
 }
 
+ul li {
+    font-size: 1.6rem;
+}
+
 p {
     line-height: 145%;
     font-size: 1.6rem;
@@ -72,6 +76,8 @@ p {
 
 .my-team h3 {
     color: #306fbf;
+    margin: 0 0 7rem 0;
+    line-height: 100%;
 }
 
 .works {
@@ -84,6 +90,10 @@ p {
 
 .my-team h2 {
     color: #003170;
+}
+
+.img-margin {
+    margin-bottom: 2rem;
 }
 
 .contact h2 {
@@ -140,7 +150,7 @@ p {
 .works h4 {
     position: absolute;
     z-index: 1;
-    top: -25px;
+    top: -0.25rem;
 }
 
 .works h4.right-aligned {
@@ -161,6 +171,16 @@ img {
 
 footer {
     background-color: #f4979c;
+    min-height: 22rem;
+    background-image: url('../img/socialmedia.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
 }
 
 .social-icon {
