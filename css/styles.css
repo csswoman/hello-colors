@@ -1,9 +1,11 @@
 html {
+    font-size: 62.5%;
     height: 100%;
 }
 
 body {
     margin: 0;
+    font-family: 'Inconsolata', monospace;
 }
 
 nav {
@@ -11,6 +13,75 @@ nav {
     z-index: 1;
     left: 0;
     right: 0;
+    font-family: 'Prata', serif;
+    font-size: 2.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Prata', serif;
+}
+
+h1 {
+    font-size: 15rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 10rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 3.2rem;
+    color: #16736e;
+    background-color: #75e3dd;
+    display: inline-block;
+    margin: 0;
+    padding: 0.4rem;
+}
+
+a {
+    letter-spacing: 0.2rem;
+    color: #16736e;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+p {
+    line-height: 145%;
+}
+
+.works h3 {
+    color: #16736e;
+}
+
+.my-team h3 {
+    color: #306fbf;
+}
+
+.works {
+    color: #16736e
+}
+
+.works h2 {
+    color: #41ccc4;
+}
+
+.my-team h2 {
+    color: #003170;
+}
+
+.contact h2 {
+    color: #f3747b;
 }
 
 .navigation {
@@ -19,8 +90,27 @@ nav {
 
 .navigation li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 1.5rem;
     color: #20c4bb;
+}
+
+.left-col,
+.right-col {
+    color: #fff;
+    text-align: center;
+}
+
+.left-col {
+    background-color: cornflowerblue;
+}
+
+.right-col {
+    background-color: coral;
+}
+
+.scroll {
+    color: #2864b1;
+    text-align: center;
 }
 
 img {
@@ -32,8 +122,8 @@ footer {
 }
 
 .social-icon {
-    height: 60px;
-    margin: 10px 20px;
+    height: 6rem;
+    margin: 1rem 2rem;
 }
 
 .social-icons-container {
